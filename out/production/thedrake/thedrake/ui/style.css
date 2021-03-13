@@ -1,0 +1,20 @@
+#pane{
+    -fx-background-image: url("background.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 983 746;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+Button {
+    -fx-font-weight: bold;
+    -fx-background-color: darkgoldenrod;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+Label {
+    -fx-font-weight: bold;
+    -fx-text-fill: darkgoldenrod;
+}
